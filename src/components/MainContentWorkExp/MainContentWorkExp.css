@@ -1,0 +1,32 @@
+/* .main-content-work-exp {
+    
+} */
+
+.main-content-work-exp-title {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.main-content-work-exp-subtitle-1 {
+    padding: 0 4rem 0 4rem;
+}
+
+.main-content-work-exp-details {
+    padding: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .main-content-work-exp-details {
+        padding: 5rem 1rem 0rem 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main-content-work-exp-title {
+        padding-left: 2rem;
+    }
+
+    .main-content-work-exp-subtitle-1 {
+        padding: 0 2rem 0 2rem;
+    }
+}

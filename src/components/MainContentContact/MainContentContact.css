@@ -1,0 +1,177 @@
+/* .main-content-contact {
+	
+} */
+
+.main-content-contact-title {
+	color: rgb(17,17,17);
+	padding-top: 7rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+.main-content-contact-subtitle {
+    padding: 0rem 4rem 5rem 4rem;
+}
+
+.main-content-contact-details {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	padding-bottom: 5rem;
+}
+
+.main-content-contact-img {
+    flex: 0 0 40%;
+	max-width: 26%;
+	min-width: 450px;
+
+    background-image: url('https://i.imgur.com/IQ33jBb.jpg');
+    background-position: center 35%;
+    background-repeat: no-repeat;
+	background-size: cover;
+	
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.main-content-contact-form {
+	flex: 0 0 40%;
+	max-width: 26%;
+	min-width: 450px;
+	
+	padding: 2rem;
+	background: #f5f5f5;
+	
+	/* margin: 0 auto 0 auto; */
+
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.main-content-contact-form input[type="text"],
+.main-content-contact-form input[type="date"],
+.main-content-contact-form input[type="datetime"],
+.main-content-contact-form input[type="email"],
+.main-content-contact-form input[type="number"],
+.main-content-contact-form input[type="search"],
+.main-content-contact-form input[type="time"],
+.main-content-contact-form input[type="url"],
+.main-content-contact-form input[type="password"],
+.main-content-contact-form textarea,
+.main-content-contact-form select {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 1rem;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 0.5rem;
+	/* font-family: 'Titillium Web', sans-serif; */
+	/* height: 5rem; */
+}
+
+.main-content-contact-form textarea{
+	resize:none;
+	overflow: hidden;
+}
+
+/* .main-content-contact-form input[type="button"], 
+.main-content-contact-form input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #1E90FF;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #1E90FF;
+	box-shadow: inset 0px 1px 0px 0px #1E90FF;
+	background-color: rgba(30, 144, 255, 0.8);
+	border: 1px solid #1E90FF;
+	display: inline-block;
+	cursor: pointer;
+	color: rgb(17,17,17);
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	padding: 1.5rem 4rem;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	width: 65%;
+    position: relative;
+    left: 50%;
+	transform: translateX(-50%);
+	
+	transition: all 0.5s;
+} */
+
+/* .main-content-contact-form input[type="button"]:hover, 
+.main-content-contact-form input[type="submit"]:hover {
+	background-color: rgba(30, 144, 255, 1);
+	color: rgb(245, 245, 245, 1);
+} */
+
+.main-content-contact-submit {
+	margin: 2rem 0rem 1rem 0rem;
+	text-align: center;
+}
+
+/* @media screen and (max-width: 1200px) {
+	
+} */
+
+@media screen and (max-width: 1024px) {
+	.main-content-contact {
+		height: 100%;
+	}
+
+	.main-content-contact-form {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main-content-contact-img {
+		height: 542px;
+		order: 2;
+		margin-top: 1rem;
+		border-radius: 5px;
+	}
+
+	.main-content-contact-form {
+		border-radius: 5px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.main-content-contact-title {
+		padding-top: 4rem;
+	}
+
+	.main-content-contact-subtitle {
+		padding-bottom: 2rem;
+	}
+
+	.main-content-contact-img {
+		display: none;;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.main-content-contact-title {
+		padding-left: 2rem;
+	}
+
+	.main-content-contact-subtitle {
+		padding: 0 2rem 2rem 2rem;
+	}
+
+	.main-content-contact-form {
+		min-width: 0;
+		flex: 0 0 80%;
+		max-width: 80%;
+		padding: 1rem;
+	}
+}

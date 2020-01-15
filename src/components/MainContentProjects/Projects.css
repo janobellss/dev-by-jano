@@ -1,0 +1,127 @@
+.project-1 {
+    position: relative;
+
+    /* width: 640px;
+    height: 360px; */
+
+    /* flex: 0 0 37%;
+    max-width: 100%;
+    height: 19vw; */
+
+    width: 100vw;
+    max-width: 40rem;
+    height: calc(100vw * (360 / 640));
+    max-height: calc(40rem * (360 / 640));
+
+    overflow: hidden;
+
+    margin: 0.5rem;
+
+    cursor: pointer;
+}
+
+.project-1-img {
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.project-1-overlay {
+    position: absolute;
+    top: 0;
+    
+    width: 100%;
+    height: 100%;
+    
+    background: rgba(17,17,17,0.5);
+}
+
+.project-1-overlay-anim {
+    position: absolute;
+    top: 0;
+    
+    width: 100%;
+    height: 100%;
+    background: rgba(30, 144, 255, 0.5);
+
+    transform: translateY(83%);
+}
+
+.project-1-btn {
+    background: rgba(30, 144, 255, 0);
+    border: 1px solid #f5f5f5;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* width: 160px;
+    height: 50px; */
+    width: 25%;
+    height: 14%;
+
+    letter-spacing: 0.1rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+}
+
+.project-1-btn:focus {
+    outline: none;
+}
+
+.project-1-title {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+
+    letter-spacing: 0.1rem;
+    padding: 0 1rem;
+    text-transform: capitalize;
+}
+
+/* @media screen and (max-width: 1024px) {
+    .project-1 {
+        flex: 0 0 60%;
+        height: 30vw;
+    }
+} */
+
+/* @media screen and (max-width: 768px) {
+    .project-1 {
+        max-width: 38rem;
+        max-height: calc(38rem * (360 / 640));
+    }
+} */
+
+/* @media screen and (max-width: 750px) {
+    .project-1 {
+        max-width: 30rem;
+        max-height: calc(30rem * (360 / 640));
+    }
+} */
+
+@media screen and (max-width: 600px) {
+    /* .project-1 {
+        max-width: 19rem;
+        max-height: calc(19rem * (360 / 640));
+    } */
+
+    .project-1-overlay-anim {
+        display: none;
+    }
+
+    .project-1-title {
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+}

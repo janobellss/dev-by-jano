@@ -1,0 +1,138 @@
+.header-main {
+  position: fixed;
+  width: 100%;
+  height: 130px;
+  top: 0px;
+  
+  z-index: 4;
+
+  transition: all 0.25s ease-in-out;
+
+  /* -webkit-filter: drop-shadow(0px 3px 5px rgba(0,0,0,0.2));
+    filter: drop-shadow(0px 3px 5px rgba(0,0,0,0.2)); */
+}
+
+.header-main.smaller {
+  height: 65px;
+}
+
+.header-main.smaller-mobile {
+  height: 50px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+
+  height: 100%;
+  text-transform: uppercase;
+  padding: 0rem 3rem;
+
+  transition: all 0.25s ease-in-out;
+}
+
+.header-main.smaller .header-nav,
+.header-main.smaller-mobile .header-nav {
+  background-color: rgba(30, 30, 30, 0.9);
+  border-bottom: 2px solid rgba(225,225,225,0.1);
+}
+
+.header-main.smaller .header-nav.open,
+.header-main.smaller-mobile .header-nav.open {
+  background-color: rgba(30, 30, 30, 0);
+  border-bottom: 2px solid rgba(225,225,225,0);
+}
+
+.header-hamburger {
+  display: block;
+  order: 3;
+}
+
+.header-logo {
+  color: #1E90FF;
+  
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+
+  order: 1;
+
+  transition: all 0.25s ease-in-out;
+}
+
+.header-main.smaller .header-logo {
+  font-size: 2.2rem;
+}
+
+.header-main.smaller-mobile .header-logo {
+  font-size: 1.5rem;
+}
+
+.header-nav.open .header-logo {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.header-spacer {
+  order: 2;
+}
+
+.header-nav-items {
+  display: none;
+  order: 3;
+}
+
+.header-nav-items ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav-items li {
+  padding: 0 0.7rem;
+}
+
+.header-logo a {
+  color: #1E90FF;
+  text-decoration: none;
+}
+
+.header-nav-items a {
+  color: #012536;
+  text-decoration: none;
+}
+
+.header-nav-items a:hover, 
+.header-nav-items a:active {
+  color: #1E90FF;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-main {
+    height: 65px;
+  }
+
+  .header-nav {
+    padding: 0 1rem;
+  }
+
+  /* .header-hamburger {
+    transform: scale(0.8);
+    transform-origin: right;
+  } */
+
+  .header-logo {
+    font-size: 1.5rem;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  
+} */

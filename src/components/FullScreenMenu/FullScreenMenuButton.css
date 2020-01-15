@@ -1,0 +1,60 @@
+.fs-menu-button {
+    background: transparent;
+
+    width: 100px;
+    height: 35px;
+
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 0;
+}
+
+.fs-menu-button:focus {
+    outline: none;
+}
+
+.fs-menu-button-line-1,
+.fs-menu-button-line-2,
+.fs-menu-button-line-3 {
+    position: relative;
+    width: 35px;
+    height: 1px;
+    top: 0;
+    background: #f5f5f5;
+    transform: translateX(0px);
+    transform-origin: left center;
+    transition: all .3s ease-out;
+}
+
+.fs-menu-button.open .fs-menu-button-line-1 {
+    top: -1px;
+    transform: rotate(45deg);
+}
+
+.fs-menu-button.open .fs-menu-button-line-3 {
+    top: 1px;
+    transform: rotate(-45deg);
+}
+
+.fs-menu-button.open .fs-menu-button-line-2 {
+    opacity: 0;
+    transform: translateX(-35px);
+}
+
+/* .fs-menu-button:hover .fs-menu-button-line-1 {
+    transform: translateX(-5px);
+}
+
+.fs-menu-button:hover .fs-menu-button-line-2 {
+    transform: translateX(-10px);
+}
+
+.fs-menu-button:hover .fs-menu-button-line-3 {
+    transform: translateX(-5px);
+} */

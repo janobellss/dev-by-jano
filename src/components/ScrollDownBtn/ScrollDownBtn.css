@@ -1,0 +1,68 @@
+.scroll-down-btn-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2rem;
+  text-align: center;
+}
+
+.scroll-down-btn {
+  background: transparent;
+  border: none;
+
+  color: #f5f5f5;
+  font-size: 1.5rem;
+    
+  padding: 3rem;
+
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+
+  transition: all 0.25s ease-in-out;
+}
+
+.scroll-down-btn.remove {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.scroll-down-btn:focus {
+  outline: none;
+}
+
+.scroll-down-btn-arrow::before,
+.scroll-down-btn-arrow::after {
+  transition: all .4s ease;
+  content: '';
+  display: block;
+  position: absolute;
+  transform-origin: bottom right;
+  background: #fff;
+  width: 1px;
+  height: 35px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%) rotateZ(-45deg);
+}
+
+.scroll-down-btn-arrow::after {
+  transform-origin: bottom left;
+  transform: translate(-50%, -50%) rotateZ(45deg);
+}
+
+/* .scroll-down-btn-arrow:hover::before,
+.scroll-down-btn-arrow:hover::after {
+  transform: translate(-50%, -50%) rotateZ(45deg);
+} */
+  
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}

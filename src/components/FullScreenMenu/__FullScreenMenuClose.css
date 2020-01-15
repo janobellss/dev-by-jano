@@ -1,0 +1,41 @@
+.fs-menu-close {
+    background: transparent;
+
+    position: absolute;
+    top: 31px;
+    right: 47px;
+    
+    width: 35px;
+    height: 35px;
+
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 0;
+}
+
+.fs-menu-close:focus {
+    outline: none;
+}
+
+.fs-menu-close-line-1,
+.fs-menu-close-line-2 {
+    background: #d1d1d1;
+    position: absolute;
+    width: 35px;
+    height: 1px;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    transition: all .3s ease-in;
+}
+
+.fs-menu-close-line-2 {
+    transform: rotate(-45deg);
+}
+
+.fs-menu-close:hover .fs-menu-close-line-1 {
+    transform: rotate(-45deg);
+}
+.fs-menu-close:hover .fs-menu-close-line-2 {
+    transform: rotate(45deg);
+}

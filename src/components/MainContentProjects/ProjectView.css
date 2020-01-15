@@ -1,0 +1,172 @@
+.project-view {
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    visibility: hidden;
+    z-index: 5;
+}
+
+.project-view-content {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: translateY(-100%);
+    transition: all 0.75s ease-in-out;
+}
+
+.project-view-content-wrapper {
+    width: 100%;
+    /* max-width: 960px; */
+    height: 100%;
+
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-view.open {
+    visibility: visible;
+}
+
+.project-view.open .project-view-content {
+    transform: translateY(0%);
+}
+
+.project-view-close {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+
+    z-index: 5;
+}
+
+.project-view-close-btn {
+    color: #f5f5f5;
+
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    
+    background: transparent;
+    border: none;
+
+    padding: 1rem 2rem 1rem 2rem;
+
+    order: 2;
+}
+
+.project-view-close-btn:focus {
+    outline: none;
+}
+
+.project-view-slider {
+    width: 60%;
+}
+
+.project-view-details {
+    width: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 20px;
+}
+
+.project-view-title {
+    letter-spacing: 0.1rem;
+    padding-top: 1rem;
+    text-transform: capitalize;
+}
+
+.project-view-description,
+.project-view-description-mobile {
+    width: 100%;
+
+    padding-top: 1rem;
+    text-transform: capitalize;
+}
+
+.project-view-description-mobile {
+    display: none;
+}
+
+.project-view-explore {
+    padding-top: 1rem;
+}
+
+/* @media screen and (max-width:1024px) and (orientation:landscape) {
+    .project-view-content-wrapper {
+        max-width: 100%;
+        flex-direction: row;
+    }
+    
+    .project-view-slider {
+        width: 60%;
+    }
+
+    .project-view-details {
+        width: 40%;
+        
+        padding: 0 20px;
+    }
+} */
+
+@media screen and (max-width:768px) {
+    .project-view-content-wrapper {
+        flex-direction: column;
+    }
+    
+    .project-view-slider {
+        width: 100%;
+    }
+
+    .project-view-details {
+        width: 100%;
+
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:750px) and (orientation:landscape) {
+    .project-view-content-wrapper {
+        flex-direction: row;
+    }
+    
+    .project-view-slider {
+        width: 60%;
+    }
+
+    .project-view-details {
+        width: 40%;
+
+        padding: 0 20px;
+    }
+
+    .project-view-description {
+        display: none;
+    }
+
+    .project-view-description-mobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .project-view-description {
+        display: none;
+    }
+
+    .project-view-description-mobile {
+        display: block;
+    }
+}

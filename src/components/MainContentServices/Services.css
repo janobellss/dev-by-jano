@@ -1,0 +1,48 @@
+.services-details {
+    background: rgba(30, 144, 255, 0.6);
+    border-radius: 0.2rem;
+
+    /* width: 350px;
+    height: 150px; */
+
+    width: 100vw;
+    max-width: 20rem;
+    height: calc(100vw * (360 / 640));
+    max-height: calc(20rem * (360 / 640));
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    margin: 0.5rem;
+}
+
+.services-details-icon-name {
+    padding: 0.5rem;
+}
+
+.services-details-icon {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.services-details-name {
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+.services-details-desc {
+    text-align: center;
+    /* padding: 0.4rem 1.5rem 0 1.5rem; */
+}
+
+@media screen and (max-width: 600px) {
+    .services-details {
+        /* width: 80vw;
+        height: 40vw; */
+
+        max-width: 19rem;
+        max-height: calc(19rem * (360 / 640));
+    }
+}

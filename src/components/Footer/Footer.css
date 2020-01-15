@@ -1,0 +1,126 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.footer .footer-contact,
+.footer .footer-copyright {
+    color: #f5f5f5;
+
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    font-size: calc(16px + 0.1vw);
+    font-weight: 300;
+
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+
+    margin: 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-connect {
+    padding-bottom: 1rem;
+}
+
+.footer-connect-title {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.footer-connect-icons {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.footer-connect-icon {
+    font-size: 3.5rem;
+    margin: 0 3rem;
+}
+
+/* .footer-connect-icon a {
+    color:#f5f5f5;
+    transition: all 0.25s;
+}
+
+.footer-connect-icon a:hover {
+    color: #c1c1c1;
+} */
+
+.footer-contact {
+    display: flex;
+    padding-bottom: 3.5rem; 
+}
+
+.footer-contact-details,
+.footer-contact-availability {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    padding: 0 4rem;
+}
+
+.footer-contact-details p {
+    padding: 0.3rem;
+}
+
+.footer-copyright {
+    text-align: center;
+
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-connect-icon {
+        font-size: 3rem;
+    }
+
+    .footer-connect {
+        padding-top: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-connect {
+        padding-top: 0;
+    }
+
+    .footer-contact {
+        flex-direction: column;
+    }
+
+    .footer-contact-details {
+        padding-bottom: 3.5rem;
+    }
+
+    .footer-contact-details, .footer-contact-availability {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .footer {
+        height: 100%;
+    }
+
+    .footer-wrapper {
+        padding: 5rem 0 5rem 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-connect-icon {
+        margin: 0 1.5rem;
+    }
+}
