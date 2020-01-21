@@ -89,6 +89,45 @@ const skillsData2 = [
 
         text: 'Sass',
         percentage: 60
+    },
+    {
+        id: 8,
+
+        skillWidth: 350,
+        barHeight: 10,
+
+        iconType: 'fab',
+        icon: 'wordpress',
+        iconColor: '#1E90FF',
+
+        text: 'WordPress',
+        percentage: 60
+    },
+    {
+        id: 9,
+
+        skillWidth: 350,
+        barHeight: 10,
+
+        iconType: 'fab',
+        icon: 'php',
+        iconColor: '#1E90FF',
+
+        text: 'PHP',
+        percentage: 60
+    },
+    {
+        id: 10,
+
+        skillWidth: 350,
+        barHeight: 10,
+
+        iconType: 'fab',
+        icon: 'github',
+        iconColor: '#1E90FF',
+
+        text: 'Git',
+        percentage: 60
     }
 ]
 
