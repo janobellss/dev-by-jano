@@ -42,21 +42,19 @@ const projectsData = [
     },
     {
         id: 3,
-        title: 'Full-page responsive takeover ad for Mobile',
+        title: 'Desktop and Mobile Responsive Homepage',
         btn: 'View',
-        bg: 'https://i.imgur.com/iTissGF.png',
+        bg: 'https://i.imgur.com/KG6WwVI.jpg',
 
-        projectTitle: 'Undertone Sparkflow Smartphone Flex - Stanly Black & Decker',
-        projectDescription: 'A mobile full-page responsive takeover unit built with responsive design, that will run across all Mobile Portrait and Landscape Orientations. Created in Undertone Sparkflow Platform using Javascript, jQuery, CSS and GreenSock via Custom Code.',
-        projectDescriptionMobile: 'A mobile full-page responsive takeover unit built with responsive design, that will run across all Mobile Portrait and Landscape Orientations',
+        projectTitle: 'Company Website',
+        projectDescription: 'A Desktop and Mobile Responsive Homepage created using React and Sass. A homepage template created for generic company.',
+        projectDescriptionMobile: 'A Desktop and Mobile Responsive Homepage created using React and Sass.',
         
         projectImg: [
-            'https://i.imgur.com/iTissGF.png',
-            'https://i.imgur.com/vZAlUCG.png',
-            'https://i.imgur.com/kaPMZDb.png'
+            'https://i.imgur.com/KG6WwVI.jpg'
         ],
 
-        projectLink: 'https://goo.gl/z6OrXx'
+        projectLink: 'https://janobellss.github.io/company-website-v1/'
     },
     {
         id: 4,
