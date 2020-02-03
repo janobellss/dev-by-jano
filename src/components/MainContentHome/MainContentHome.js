@@ -18,7 +18,7 @@ function MainContentHome() {
 
     const descriptions = [
         { item: 'Creative Developer', item2: useRef(null) },
-        { item: 'Rich Media Developer', item2: useRef(null) },
+        // { item: 'Rich Media Developer', item2: useRef(null) },
         { item: 'Front-End Web Developer', item2: useRef(null) },
         { item: 'Toy Collector', item2: useRef(null) },
         { item: 'Woodworker', item2: useRef(null) },

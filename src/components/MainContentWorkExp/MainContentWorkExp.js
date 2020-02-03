@@ -21,7 +21,10 @@ class MainContentWorkExp extends Component {
     render() {
 
         let title = 'my life as a developer';
-        let subtitle1 = 'a decade of experience in online advertising, digital marketing, and developing Rich Media Ads using latest technologies available.';
+
+        // let subtitle1 = 'a decade of experience in online advertising, digital marketing, and developing Rich Media Ads using latest technologies available.';
+
+        let subtitle1 = 'a decade of experience in online advertising, digital marketing, developing Rich Media Ads and Websites using latest technologies available.';
 
         const workExpComp = this.state.workExpData.map(item => <WorkExp 
             key={item.id} 

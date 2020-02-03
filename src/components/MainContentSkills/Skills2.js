@@ -45,9 +45,9 @@ const Skills2 = (props) => {
 
                         <div className='skills-details-spacer-2'></div>
 
-                        <p className='skills-details-perc-2 title'>
+                        {/* <p className='skills-details-perc-2 title'>
                             {props.data.percentage}%
-                        </p>
+                        </p> */}
                     </div>
                     
                     <div className='skills-details-bar-2' style={skillsDetailsBarStyle}>

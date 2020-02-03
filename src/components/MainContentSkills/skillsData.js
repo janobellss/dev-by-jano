@@ -26,7 +26,7 @@ const skillsData = [
         marginInPercent: 0.06,
         cornerRadius: 5,
         nrOfLevels: 1,
-        percent: 0.80,
+        percent: 0.90,
         arcWidth: 0.15,
         colors: '#f5f5f5',
         textColor: '#f5f5f5',

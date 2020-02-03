@@ -40,7 +40,7 @@ class MainContentProjects extends Component {
     render() {
 
         let title = 'what I do';
-        let subtitle1 = 'I develop simple to complex interactive rich media advertisements.';
+        let subtitle1 = 'I develop front end applications and simple to complex interactive rich media banners.';
         // let subtitle2 = 'interactive rich media advertisements.';
 
         const projectsComp = this.state.projectsData.map((item) => <Projects 

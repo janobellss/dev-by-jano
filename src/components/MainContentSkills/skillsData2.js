@@ -49,7 +49,7 @@ const skillsData2 = [
         iconColor: '#1E90FF',
 
         text: 'React JS',
-        percentage: 70
+        percentage: 100
     },
     {
         id: 5,
@@ -62,7 +62,7 @@ const skillsData2 = [
         iconColor: '#1E90FF',
 
         text: 'Bootstrap',
-        percentage: 55
+        percentage: 100
     },
     {
         id: 6,
@@ -75,7 +75,7 @@ const skillsData2 = [
         iconColor: '#1E90FF',
 
         text: 'Adobe PS',
-        percentage: 80
+        percentage: 100
     },
     {
         id: 7,
@@ -88,7 +88,7 @@ const skillsData2 = [
         iconColor: '#1E90FF',
 
         text: 'Sass',
-        percentage: 60
+        percentage: 100
     },
     {
         id: 8,
@@ -101,7 +101,7 @@ const skillsData2 = [
         iconColor: '#1E90FF',
 
         text: 'WordPress',
-        percentage: 60
+        percentage: 100
     },
     {
         id: 9,
@@ -114,7 +114,7 @@ const skillsData2 = [
         iconColor: '#1E90FF',
 
         text: 'PHP',
-        percentage: 60
+        percentage: 100
     },
     {
         id: 10,
@@ -127,7 +127,7 @@ const skillsData2 = [
         iconColor: '#1E90FF',
 
         text: 'Git',
-        percentage: 60
+        percentage: 100
     }
 ]
 
