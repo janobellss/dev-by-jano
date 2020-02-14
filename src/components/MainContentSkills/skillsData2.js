@@ -45,10 +45,10 @@ const skillsData2 = [
         barHeight: 10,
 
         iconType: 'fab',
-        icon: 'react',
+        icon: 'js-square',
         iconColor: '#1E90FF',
 
-        text: 'React JS',
+        text: 'jQuery',
         percentage: 100
     },
     {
@@ -58,10 +58,12 @@ const skillsData2 = [
         barHeight: 10,
 
         iconType: 'fab',
-        icon: 'bootstrap',
+        icon: 'glide-g',
+        // icon: 'gofore',
+        // icon: 'goodreads-g',
         iconColor: '#1E90FF',
 
-        text: 'Bootstrap',
+        text: 'GreenSock GSAP Animation',
         percentage: 100
     },
     {
@@ -84,6 +86,19 @@ const skillsData2 = [
         barHeight: 10,
 
         iconType: 'fab',
+        icon: 'react',
+        iconColor: '#1E90FF',
+
+        text: 'React JS',
+        percentage: 100
+    },
+    {
+        id: 8,
+
+        skillWidth: 350,
+        barHeight: 10,
+
+        iconType: 'fab',
         icon: 'sass',
         iconColor: '#1E90FF',
 
@@ -91,7 +106,20 @@ const skillsData2 = [
         percentage: 100
     },
     {
-        id: 8,
+        id: 9,
+
+        skillWidth: 350,
+        barHeight: 10,
+
+        iconType: 'fab',
+        icon: 'bootstrap',
+        iconColor: '#1E90FF',
+
+        text: 'Bootstrap',
+        percentage: 100
+    },
+    {
+        id: 10,
 
         skillWidth: 350,
         barHeight: 10,
@@ -104,7 +132,7 @@ const skillsData2 = [
         percentage: 100
     },
     {
-        id: 9,
+        id: 11,
 
         skillWidth: 350,
         barHeight: 10,
@@ -117,7 +145,7 @@ const skillsData2 = [
         percentage: 100
     },
     {
-        id: 10,
+        id: 12,
 
         skillWidth: 350,
         barHeight: 10,

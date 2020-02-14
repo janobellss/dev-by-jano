@@ -12,7 +12,9 @@ function MainContentAbout() {
 
     // let subtitle = 'I\'m a Creative Developer / Rich Media Developer who has a solid experience in developing online Rich Media Banners. Has a keen interest in learning new methodologies and tools.';
 
-    let subtitle = 'Creative Developer / Front-End Web Developer experienced in developing Rich Media Banners and skilled in developing Websites. Adept at various Ad Platforms, Rich Media Banner authoring tools, and Front-End Web Development tools and libraries.';
+    // let subtitle = 'Creative Developer / Front-End Web Developer experienced in developing Rich Media Banners and skilled in developing Websites. Adept at various Ad Platforms, Rich Media Banner authoring tools, and Front-End Web Development tools and libraries.';
+
+    let subtitle = 'Front-End Developer experienced in developing front end applications and rich media banners. Adept at various Front-End Development tools and libraries';
 
     // let title2 = 'more about me';
 

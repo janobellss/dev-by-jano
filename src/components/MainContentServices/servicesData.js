@@ -2,21 +2,21 @@ const servicesData = [
     {
         id: 1,
 
-        iconType: 'fab',
-        icon: 'html5',
+        iconType: 'fas',
+        icon: 'code',
         iconColor: '#f5f5f5',
 
-        title: 'Rich Media Development',
+        title: 'Front-End Development',
         description: ''
     },
     {
         id: 2,
 
-        iconType: 'fas',
-        icon: 'code',
+        iconType: 'fab',
+        icon: 'html5',
         iconColor: '#f5f5f5',
 
-        title: 'Front-End Web Development',
+        title: 'Rich Media Development',
         description: ''
     },
     // {

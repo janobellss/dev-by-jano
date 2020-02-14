@@ -47,8 +47,8 @@ const projectsData = [
         bg: 'https://i.imgur.com/KG6WwVI.jpg',
 
         projectTitle: 'Company Website',
-        projectDescription: 'A Desktop and Mobile Responsive Homepage created using React and Sass. A homepage template created for generic company.',
-        projectDescriptionMobile: 'A Desktop and Mobile Responsive Homepage created using React and Sass.',
+        projectDescription: 'Desktop and Mobile Responsive Homepage created using React and Sass. A homepage template created for generic company.',
+        projectDescriptionMobile: 'Desktop and Mobile Responsive Homepage created using React and Sass.',
         
         projectImg: [
             'https://i.imgur.com/KG6WwVI.jpg'
@@ -58,25 +58,41 @@ const projectsData = [
     },
     {
         id: 4,
-        title: 'Interative Rich Media Ad with video for Desktop',
+        title: 'Desktop and Mobile Responsive Landing Page',
         btn: 'View',
-        bg: 'https://i.imgur.com/O3l9FXS.png',
+        bg: 'https://i.imgur.com/mpBzoIE.jpg',
 
-        projectTitle: 'TrueX - John Deere GATOR',
-        projectDescription: 'A non-responsive interactive unit for Desktop, that features multiple videos and product descriptions. This unit lets the user explore how good the product is and what are its capabilities.',
-        projectDescriptionMobile: 'A non-responsive interactive unit for Desktop, that features multiple videos and product descriptions.',
+        projectTitle: 'Company Landing Page',
+        projectDescription: 'Desktop and Mobile Responsive Landing Page created using React and Sass. A landing page template created for generic company.',
+        projectDescriptionMobile: 'Desktop and Mobile Responsive Landing Page created using React and Sass.',
         
         projectImg: [
-            'https://i.imgur.com/O3l9FXS.png',
-            'https://i.imgur.com/GrxX1dL.png',
-            'https://i.imgur.com/Gvzbk0V.png',
-            'https://i.imgur.com/H0Tp9pd.png',
-            'https://i.imgur.com/OmfcjiW.png',
-            'https://i.imgur.com/90LIFta.png',
+            'https://i.imgur.com/mpBzoIE.jpg'
         ],
 
-        projectLink: 'https://engage.truex.com/engage?creative_json_url=https://ee.truex.com/creative_drafts/30755/config_json&fullscreen=true'
+        projectLink: 'https://janobellss.github.io/company-landing-page-v1/'
     },
+    // {
+    //     id: 4,
+    //     title: 'Interative Rich Media Ad with video for Desktop',
+    //     btn: 'View',
+    //     bg: 'https://i.imgur.com/O3l9FXS.png',
+
+    //     projectTitle: 'TrueX - John Deere GATOR',
+    //     projectDescription: 'A non-responsive interactive unit for Desktop, that features multiple videos and product descriptions. This unit lets the user explore how good the product is and what are its capabilities.',
+    //     projectDescriptionMobile: 'A non-responsive interactive unit for Desktop, that features multiple videos and product descriptions.',
+        
+    //     projectImg: [
+    //         'https://i.imgur.com/O3l9FXS.png',
+    //         'https://i.imgur.com/GrxX1dL.png',
+    //         'https://i.imgur.com/Gvzbk0V.png',
+    //         'https://i.imgur.com/H0Tp9pd.png',
+    //         'https://i.imgur.com/OmfcjiW.png',
+    //         'https://i.imgur.com/90LIFta.png',
+    //     ],
+
+    //     projectLink: 'https://engage.truex.com/engage?creative_json_url=https://ee.truex.com/creative_drafts/30755/config_json&fullscreen=true'
+    // },
     {
         id: 5,
         title: 'Interative Rich Media Ad with video for Desktop',

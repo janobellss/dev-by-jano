@@ -17,9 +17,9 @@ function MainContentHome() {
     let title = 'Jano Quiambao';
 
     const descriptions = [
+        { item: 'Front-End Developer', item2: useRef(null) },
         { item: 'Creative Developer', item2: useRef(null) },
-        // { item: 'Rich Media Developer', item2: useRef(null) },
-        { item: 'Front-End Web Developer', item2: useRef(null) },
+        { item: 'Rich Media Developer', item2: useRef(null) },
         { item: 'Toy Collector', item2: useRef(null) },
         { item: 'Woodworker', item2: useRef(null) },
         { item: 'Dog Lover', item2: useRef(null) },
